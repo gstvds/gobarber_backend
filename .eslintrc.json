@@ -30,6 +30,7 @@
           "ts": "never"
         }
       ],
+      "class-methods-use-this": "off",
       "prettier/prettier": "error"
     },
     "settings": {
