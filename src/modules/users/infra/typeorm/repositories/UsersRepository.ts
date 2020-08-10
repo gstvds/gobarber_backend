@@ -38,10 +38,10 @@ class UsersRepository implements IUsersRepository {
    * @param userData corpo de um usuário com `name`, `email` e `password`
    */
   public async create(userData: ICreateUserDTO): Promise<User> {
-    const appointment = this.ormRepository.create(userData);
-    await this.ormRepository.save(appointment);
+    const user = this.ormRepository.create(userData);
+    await this.ormRepository.save(user);
 
-    return appointment;
+    return user;
   }
 
   /**
