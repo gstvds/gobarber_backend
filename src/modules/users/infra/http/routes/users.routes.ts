@@ -27,7 +27,7 @@ usersRouter.post(
   usersController.create,
 );
 
-const upload = multer(uploadConfig);
+const upload = multer(uploadConfig.multer);
 usersRouter.patch(
   '/avatar',
   ensureAuthenticated,
