@@ -19,5 +19,5 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "exclude": ["./coverage"]
+  "exclude": ["./coverage", "dist", "jest.config.js", "prettier.config.js"]
 }

@@ -5,3 +5,4 @@ tmp/*
 .env
 coverage
 ormconfig.json
+dist/
